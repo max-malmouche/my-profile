@@ -1,0 +1,118 @@
+/*Colors and fronts*/
+
+body {
+background-color: rgb(255,255,255);
+color: brown;
+font-family: "Lora", serif;
+font-size: 17px;
+}
+
+h1, h2, h3 {
+font-family: "Roboto", sans-serif;
+}
+h1 {
+color: rgb(108,78,49);
+    font-size: 32px;
+}
+h2{
+color: rgb(96,63,38);
+font-size: 20px
+font-weight: lighter;
+ont-weight: 500;
+}
+a{
+    font-family: "Roboto", sans-serif;
+text-decoration: none;
+text-size: 16px;
+color: rgb(108, 78, 49);
+font-weight: 600;
+}
+a: hover{
+color: black;
+}
+
+/*custom design with class*/
+.container {
+    width:700px;
+    margin:40px auto;
+
+@media(max-width:760px){
+    width:600;
+}
+
+
+@media (max-width:500px) {
+    .conatiner {
+       width: 400px;
+    }
+}
+
+
+
+}
+
+.card-white {
+
+    background-color: whites;
+    padding:40px;
+    box-shadow:0px 10px 30px rgb(0,0,0,0.1);
+    border-radius:4px;
+    margine:20px 0px;
+    text-align:center;
+}
+
+.img-circle {
+    border-radius:50%;
+}
+.btn-blue {
+    background-color: skyblue;
+    color:white;
+    padding: 15px 20px;
+    border-radius:4px ;
+}
+.btn-blue:hover {
+    background-color: black;
+    color: white ;
+
+}
+.list-inline {
+    list-style:no ;
+    padding-left:0px;
+}
+.list-inline li {
+    display:inline;
+    padding: 10px;
+}
+.list-inline i {
+    font-size:50px;
+    color: rgb(230,230,230);
+}
+.list-inline i:hover {
+    color: black;
+}
+ 
+ #introduction p {
+   margin-bottom: 40px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
